@@ -16,11 +16,13 @@
 	min-height: 739.5px;
 	width: 100%;
 	background: white;
-	border-bottom: solid 1px #ddd;
+	border-bottom: solid 1px #777;
+
 }
 .main3{
 	min-height: 708.3px;
 	width: 100%;
+	border-top: solid 1px #777;
 	border-bottom: solid 1px #777;
 }
 .main4{
@@ -247,6 +249,7 @@ s
 	border-radius: 10px;
 	float: left;
 	margin-top: 20px;
+	margin-bottom: 100px;
 
 }
 .bio{
@@ -258,6 +261,7 @@ s
 	padding-right: 15px;
 	padding-left: 35px;
 	margin-top: 20px;
+	margin-bottom: 100px;
 
 }
 .quick{
@@ -523,7 +527,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 .card{
 	width: 100%;
 	min-height: 338.8px;
-	margin-top: -70px;
+	margin-top: 0px;
 	border-style: solid;
 	border-color: #777777;
 	border-width: 1px;
@@ -597,7 +601,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	width: 100%;
 	height: 352px;
 	float: left;
-	margin-top: -100px;
+	margin-top: 0px;
 	border-radius: 6px;
 	border: solid 1px #ddd;
 	
@@ -605,9 +609,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 .happy2{
 	width: 100%;
-	height: 352px;
+	min-height: 352px;
 	float: left;
-	margin-top: -100px;
+	margin-top: 0px;
 	border-radius: 6px;
 	border: solid 1px #ddd;
 	
@@ -660,206 +664,4 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-
-
-
-
-/*
-
-@media only screen and (max-width: 767px) {
-	.footer6{
-		width: 670px;
-		height: 100px;
-
-	}
-	.footer1{
-		width: 670px;
-		height: 25px;
-	}
-	.footer2{
-		width: 670px;
-		height: 25px;
-	}
-	.footer3{
-		width: 670px;
-		height: 25px;
-	}
-	.footer4{
-		width: 670px;
-		height: 25px;
-	}
-	.footer5{
-		width: 668px;
-		height: 55px;
-	}
-	.main7{
-		width: 700px;
-		height: 355px;
-		margin-left: 0;
-
-	}
-	.form{
-		width: 668px;
-		height: 333px;
-		margin-left: 5px;
-	}
-	.main6{
-		width: 698px;
-		height: 900px;
-	}
-	.user{
-		height: 51px;
-		width: 668px;
-		ma
-	}
-	.email{
-		height: 51px;
-		width: 668px;
-	}
-	.message{
-		height: 105px;
-		width: 668px;
-	}
-	.contactme{
-		height: 105px;
-		width: 668px;
-		margin-left: 5px;
-	}
-	.main2{
-		height: 1012px;
-		width: 668px;
-	}
-	.bio{
-	
-		margin-top: -60px;
-	}
-	.aboutme{
-		height: 105px;
-		width: 668px;
-		margin-bottom:100px ;
-	}
-	.photo{
-		height: 446px;
-		width: 668px;
-		background-size: cover;
-		margin-top: 50px;
-		
-	}
-	.img{
-    border-radius: 10px;
-    background-size: contain;
-    width: 668px;
-    height: 446px;
-
-
-	}
-	.contactme{
-		margin-top:25px ;
-
-	}
-	.btn1{
-		margin-bottom: 5px;
-	}
-	.card{
-	width: 698px;
-	height: 316px;
-	margin-bottom:120px;
-	margin-right: 10px;
-
-	}
-	.text1{
-		margin-left: 30px;
-		width: 616px;
-		height: 19.8px;
-	}
-	.text2{
-		font-size: 15px;
-		width: 616px;
-		height: 50px;
-		margin-top: 50px;
-	}
-	.icons{
-		margin-left: 310px;
-		margin-top: 50px;
-	}
-	.main3{
-		width: 775px;
-		height: 1750px;}
-	.the2{
-		width: 668px;
-		height: 25px;
-		margin: 25px 0px 10px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.what{
-		height: 105px;
-		width: 668px;
-		margin-left: 5px;
-		margin-top: 50px;
-		
-	}
-	.line2{
-margin-left: 275px;
-margin-bottom: 15px;
-	}
-	.the2{
-		width: 668px;
-		height: 25px;
-		
-
-
-	}
-		.c{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-	.aboutme{
-	width:698px ;
-	height:105px ;
-	background: red;
-	padding-top: 50px;
-
-}
-
-	
-
-
-
-
-
-
-
-/*
-@media only screen and (max-width: 1200px) {
-	.footer6{
-		width: 940px;
-
-	}
-	.footer1{
-		width: 940px;
-	}
-	.footer2{
-		width: 940px;
-	}
-	.footer3{
-		width: 940px;
-	}
-	.footer4{
-		width: 940px;
-	}
-	.footer5{
-		width: 940px;
-	}
-	.icon1{
-		margin-left: 315px;
-	}
-	.card{
-		height: 100px;
-	}
-
-
-}*/
 
