@@ -1,4 +1,3 @@
-
 .main{
 	min-height:4728.85px;
 	/*width:  1471.2px;*/
@@ -36,6 +35,7 @@
 	width: 100%;
 	/*background: purple;*/
 	border-bottom: solid 1px #777;
+	border-top: solid 1px #777;
 }
 .main6{
 	min-height: 711.5px;
@@ -262,6 +262,7 @@ s
 	padding-left: 35px;
 	margin-top: 20px;
 	margin-bottom: 100px;
+
 
 }
 .quick{
@@ -539,6 +540,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	min-height: 102px;
 	font-size: 15px;
 	margin-top: 15px;
+
 }
 .icons{
 	width: 60px;
@@ -583,18 +585,18 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	color: white;
 }
 .developer{
-	background-color: rebeccapurple;
 	width: 100%;
 	min-height: 792px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
+
 }
 .desinger{
 	width: 100%;
 	height: 200px;
-	background-color: beige;
+
 	
 }
 .happy1{
@@ -654,6 +656,24 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	
 }
 
+.typed-cursor, .typejs {
+    display: inline;
+    font-weight: 900;
+    font-size: 100px;
+    color: #ff214f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.typed-cursor {
+    font-weight: 300;
+}
+.typed-cursor, .typejs {
+    display: inline;
+    font-weight: 900;
+    font-size: 100px;
+    color: #ff214f;
+}
 
 
 
@@ -662,6 +682,97 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
+@media (min-width: 768px) {
+	.card{
+		margin-bottom: 20px;
+	}
+	.clientsicon{
+		margin-left: 115px;
+	}
+	/*.btn{
+		margin-top: -40px;
+		min-height: 40px;
+		width: 141px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.bio{
+		margin-top: -100px;
+		width: 720px;
+		min-height: 273px;
+		margin-left: -30px;
 
+	}
+	.photo{
+		width: 720px;
+		min-height: 480px;
+		margin-bottom: -20px;
+	}	*/
 
+	
+	
+}
+@media (max-width: 767.98px) {
+	.card{
+		margin-bottom: 20px;
+	}
+	.icons{
+		margin-left: 300px;
+	}
+	.happy1{
+		margin-bottom: 40px;
+	}
+	.happy2{
+		margin-bottom: 40px;
+	}
+	.photo{
+		margin-bottom: -25px;
+
+	}
+	.bio{
+		margin-left:-25px;
+		margin-right: -25px;
+		width: 668px;
+		min-height: 290px;
+
+	}
+	.btn{
+		margin-top: -40px;
+		min-height: 40px;
+		width: 141px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	/*.bio{
+		margin-top: -100px;
+		width: 720px;
+		min-height: 273px;
+		margin-left: -30px;
+
+	}*/
+	.photo{
+		width: 668px;
+		min-height: 445px;
+		margin-bottom: -20px;
+		margin-left: -20px;
+	}
+	.user{
+		width: 670px;
+		min-height: 51px;
+		margin-left:-170px;
+	}
+	.email{
+		width: 670px;
+		min-height: 51px;
+		margin-left:-170px;
+	}
+	.message{
+		width: 670px;
+		min-height: 51px;
+		margin-left:-170px;
+	}
+	
+}
 
