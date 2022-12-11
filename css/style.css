@@ -761,6 +761,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		margin-bottom: 0px;
 		margin-left: -20px;
 	}
+	
 	.user{
 		width: 670px;
 		min-height: 51px;
@@ -781,7 +782,19 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		padding-right: 50px;
 		
 	}
+	.form{
+		padding-left:190px;
+		margin-left:-40px;
 
+
+	}
+	.btn1{
+		padding-right: 60px;
+		margin-left: -360px;
+	}
+	.icons{
+		padding-left: 15px;
+	}
 
 
 }
