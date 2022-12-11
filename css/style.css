@@ -492,11 +492,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     border-radius: 10px;
     border: 1px solid #ff214f;
 
-}/*.the2{
-	margin: 25px 190px 10px;
-	font-size: 15px;
-	color: #777777;
-}*/
+}
 .the2{
 	width: 100%;
 	min-height: 25.5px;
@@ -566,13 +562,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	margin-left: 0px;
 }
 .text2{
-	width: 210.5px;
-	height: 102px;
+	width: 100%;
+	min-height: 102px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 15px;
-	margin-left: 25px;
+
 
 }
 
@@ -709,6 +705,21 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		min-height: 480px;
 		margin-bottom: -20px;
 	}	*/
+	.bio{
+		width: 455px;
+		min-height: 280px;
+		padding: 0px;
+		margin-left: -5px;
+   
+	}
+	.photo{
+		margin-left: -40px;
+		width: 455px;
+		min-height: 303px;
+	}
+	.btn{
+		margin-top: 10px;
+	}
 
 	
 	
@@ -726,15 +737,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.happy2{
 		margin-bottom: 40px;
 	}
-	.photo{
-		margin-bottom: -25px;
-
-	}
+	
 	.bio{
-		margin-left:-25px;
+		margin-left:-35px;
 		margin-right: -25px;
 		width: 668px;
 		min-height: 290px;
+		margin-top: -90px;
 
 	}
 	.btn{
@@ -745,17 +754,11 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		align-items: center;
 		justify-content: center;
 	}
-	/*.bio{
-		margin-top: -100px;
-		width: 720px;
-		min-height: 273px;
-		margin-left: -30px;
-
-	}*/
+	
 	.photo{
 		width: 668px;
 		min-height: 445px;
-		margin-bottom: -20px;
+		margin-bottom: 0px;
 		margin-left: -20px;
 	}
 	.user{
@@ -773,6 +776,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		min-height: 51px;
 		margin-left:-170px;
 	}
-	
+	.text2{
+		
+		padding-right: 50px;
+		
+	}
+
+
+
 }
 
