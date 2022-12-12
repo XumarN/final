@@ -17,6 +17,10 @@
 	background: white;
 	border-bottom: solid 1px #777;
 
+
+}
+.mys{
+	background: rebeccapurple;
 }
 .main3{
 	min-height: 708.3px;
@@ -99,7 +103,7 @@
 	width: 100%;
 	min-height: 54.99px;
 	margin-bottom: 10px;
-	margin-left: -40px;
+	
 }
 .footer6{
 	width: 100%;
@@ -118,7 +122,7 @@
 	align-items: center;
 	float: left;
 	margin-right: 20px;
-	margin-left: 427px;
+	margin-left: 360px;
 	transform: rotate(45deg) ;
 	border-radius: 5px;
 	margin-top: 5px;
@@ -126,13 +130,13 @@
 	color: white;
 }
 .icon2{
+	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
 	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	transform: rotate(45deg) ;
 	border-radius: 5px;
 	margin-top: 5px;
 	display: flex;
@@ -142,13 +146,13 @@
 	color: white;
 }
 .icon3{
+	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
 	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	transform: rotate(45deg) ;
 	border-radius: 5px;
 	margin-top: 5px;
 	display: flex;
@@ -158,13 +162,13 @@
 	color: white;
 }
 .icon4{
+	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
 	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	transform: rotate(45deg) ;
 	border-radius: 5px;
 	margin-top: 5px;
 	display: flex;
@@ -174,12 +178,12 @@
 	color: white;
 }
 .icon5{
+	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
 	background: #FF214F;
 	padding: 15px;
 	float: left;
-	transform: rotate(45deg) ;
 	border-radius: 5px;
 	margin-top: 5px;
 	display: flex;
@@ -190,7 +194,7 @@
 
 }
 
-s
+
 
 .aboutme{
 	
@@ -246,22 +250,20 @@ s
 .photo{
 	width: 100%;
 	height: 370px;
-	border-radius: 10px;
-	float: left;
-	margin-top: 20px;
-	margin-bottom: 100px;
-
+	
+	
 
 }
+
 .bio{
 	float: left;
 	width: 100%;
 	min-height: 326px;
 	color: #777777;
-	padding-right: 0px;
 	
 	margin-top: 20px;
 	margin-bottom: 100px;
+	
 
 
 }
@@ -281,6 +283,7 @@ s
 	display: flex;
 	align-items: flex-start;
 	justify-content: left;
+	
 }
 .btn, input[type='submit'] {
     display: inline-block;
@@ -334,7 +337,7 @@ li {
 	justify-content: center;
 	color: #333333;
 	margin-bottom: 50px;
-	margin-left: 140px;
+	margin-left: 110px;
 	font-size: 30px;
 	position: relative;
 }
@@ -686,11 +689,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 
-.img{
-	width: 100%;
-	height: 370px;
-	padding-right: 50px;
-	}
+
 
 
 
@@ -701,21 +700,14 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		margin-bottom: 20px;
 	}
 	
-	.bio{
-		width: 455px;
-		min-height: 280px;
-		padding: 0px;
-		margin-left: -5px;
-   
-	}
-	.photo{
-		margin-left: -40px;
-		width: 455px;
-		min-height: 303px;
-	}
+	
+	
 	.btn{
 		margin-top: 10px;
 	}
+
+	
+	
 
 	
 	
@@ -724,7 +716,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.card{
 		margin-bottom: 20px;
 	}
-	s
+	
 	.happy1{
 		margin-bottom: 40px;
 	}
@@ -733,14 +725,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	}
 	
 	
-	.bio{
-		margin-left:-35px;
-		margin-right: -25px;
-		width: 668px;
-		min-height: 290px;
-		margin-top: -90px;
-
-	}
+	
 	.btn{
 		margin-top: -40px;
 		min-height: 40px;
@@ -751,27 +736,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	}
 	
 	.photo{
-		width: 668px;
-		min-height: 445px;
-		margin-bottom: 0px;
-		margin-left: -20px;
+		vertical-align: middle;
 	}
 	
-	.user{
-		width: 670px;
-		min-height: 51px;
-		margin-left:-170px;
-	}
-	.email{
-		width: 670px;
-		min-height: 51px;
-		margin-left:-170px;
-	}
-	.message{
-		width: 670px;
-		min-height: 51px;
-		margin-left:-170px;
-	}
+	
 	.text2{
 		
 		padding-right: 50px;
@@ -783,10 +751,20 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		padding-right: 60px;
 		margin-left: -360px;
 	}
-	.icons{
-		padding-left: 15px;
+	.icon{
+		padding-left: 10px;
+		padding-right: 645px;
 	}
+	.form{
+		padding-left: 0px;
+		padding-right: 0px;
 
+	}
+	.btn1{
+		margin-left: -220px;
+	}
+	
+	
 
 }
 
