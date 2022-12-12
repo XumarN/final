@@ -245,11 +245,12 @@ s
 }
 .photo{
 	width: 100%;
-	min-height: 370px;
+	height: 370px;
 	border-radius: 10px;
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 100px;
+
 
 }
 .bio{
@@ -257,9 +258,8 @@ s
 	width: 100%;
 	min-height: 326px;
 	color: #777777;
-	margin: 0px 0px 0px 0px;
-	padding-right: 15px;
-	padding-left: 35px;
+	padding-right: 0px;
+	
 	margin-top: 20px;
 	margin-bottom: 100px;
 
@@ -353,7 +353,7 @@ li {
 }
 .the1{
 	width: 100%;
-	min-height: 25.5px;
+	height: 25.5px;
 	color: #777777;
 	display: flex;
 	align-items: center;
@@ -380,11 +380,12 @@ li {
 	margin-top: 50px;
 }
 .form{
-	width: 700px;
+	width: 100%;
 	min-height: 324px;
-	margin-left: 200px;
-	float: left;
 	margin-top: -33px;
+	    padding-right: 260px;
+    padding-left: 180px;
+
 }
 .user{
 	width: 100%;
@@ -414,7 +415,7 @@ li {
 	justify-content: center;
 	font-size: 15px;
 	color: #ff214f;
-	padding-right: 675px;
+	padding-right: 650px;
 }
 .form-control{
 	margin-top: -41px;
@@ -526,40 +527,42 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	min-height: 338.8px;
 	margin-top: 0px;
 	border-style: solid;
-	border-color: #777777;
+	border-color: #777;
 	border-width: 1px;
 	border-radius: 6px;
 	padding-bottom: 10px;
+
 }
 .text{
 	width: 100%;
 	min-height: 102px;
 	font-size: 15px;
 	margin-top: 15px;
+	
 
 }
 .icons{
-	width: 60px;
-	height: 60px;
-	background: #FF214F;
-	margin-bottom: 50px;
-	margin-top: 50px;
-	margin-left: 100px;
-	transform: rotate(45deg);
-	border-radius: 3px;
+	width: 100%;
+	height: 80px;
+	/*background-color: #FF214F;*/
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	padding-bottom: 25px;
-	padding-right:25px ;
+	justify-content: center;	
+	margin-top: 30px;
+	font-size: 30px;
+	padding-right: 80px;
+	transform: rotate(45deg);
+	
 
 }
 .text1{
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-left: 0px;
+	width: 100%;
+	min-height: 20px;
 }
 .text2{
 	width: 100%;
@@ -568,6 +571,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	align-items: center;
 	justify-content: center;
 	font-size: 15px;
+	text-align: center;
+	padding: 0px 25px;
 
 
 }
@@ -616,23 +621,32 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	
 }
 .clientsicon{
-	width: 80px;
+	width: 100%;
 	height: 80px;
-	background-color: #FF214F;
-	transform: rotate(45deg) ;
-	margin-left: 225px;
-	border-radius: 6px;
+	/*background-color: #FF214F;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;	
-	margin-top: 50px;
+	margin-top: 30px;
 	font-size: 30px;
+	padding-right: 100px;
+	transform: rotate(45deg);
+	
 }
 .mystyle1{
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 70px;
+	background: #FF214F;
+	padding-right: 5px;
+	border-radius: 6px;
+	margin-left: 45px;
+
+
+
 }
 .clients1{
 	width: 100%;
@@ -672,7 +686,11 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 
-
+.img{
+	width: 100%;
+	height: 370px;
+	padding-right: 50px;
+	}
 
 
 
@@ -682,29 +700,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.card{
 		margin-bottom: 20px;
 	}
-	.clientsicon{
-		margin-left: 115px;
-	}
-	/*.btn{
-		margin-top: -40px;
-		min-height: 40px;
-		width: 141px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.bio{
-		margin-top: -100px;
-		width: 720px;
-		min-height: 273px;
-		margin-left: -30px;
-
-	}
-	.photo{
-		width: 720px;
-		min-height: 480px;
-		margin-bottom: -20px;
-	}	*/
+	
 	.bio{
 		width: 455px;
 		min-height: 280px;
@@ -728,15 +724,14 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.card{
 		margin-bottom: 20px;
 	}
-	.icons{
-		margin-left: 300px;
-	}
+	s
 	.happy1{
 		margin-bottom: 40px;
 	}
 	.happy2{
 		margin-bottom: 40px;
 	}
+	
 	
 	.bio{
 		margin-left:-35px;
@@ -782,12 +777,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		padding-right: 50px;
 		
 	}
-	.form{
-		padding-left:190px;
-		margin-left:-40px;
-
-
-	}
+	
+	
 	.btn1{
 		padding-right: 60px;
 		margin-left: -360px;
