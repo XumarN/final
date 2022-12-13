@@ -386,7 +386,7 @@ li {
 	width: 100%;
 	min-height: 324px;
 	margin-top: -33px;
-	    padding-right: 260px;
+	padding-right: 180px;
     padding-left: 180px;
 
 }
@@ -418,7 +418,7 @@ li {
 	justify-content: center;
 	font-size: 15px;
 	color: #ff214f;
-	padding-right: 650px;
+	padding-right: 750px;
 }
 .form-control{
 	margin-top: -41px;
@@ -594,6 +594,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-left: 170px;
 
 
 }
@@ -688,30 +689,16 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     color: #ff214f;
 }
 
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-	.card{
-		margin-bottom: 20px;
-	}
-	
-	
-	
-	.btn{
-		margin-top: 10px;
-	}
-
-	
-	
-
-	
-	
+.actions {
+    margin-left: 500px;
+    margin-top: 50px;
 }
+
+
+
+
+
+
 @media (max-width: 767.98px) {
 	.card{
 		margin-bottom: 20px;
@@ -723,7 +710,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.happy2{
 		margin-bottom: 40px;
 	}
-	
+	.form{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	
 	
 	.btn{
@@ -747,24 +737,73 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	}
 	
 	
-	.btn1{
-		padding-right: 60px;
-		margin-left: -360px;
-	}
-	.icon{
-		padding-left: 10px;
-		padding-right: 645px;
-	}
+	
+	
+	
+    
+
+}	
+	
+
+
+	@media (min-width: 768px) {
+		.card{
+			margin-bottom: 20px;
+		}
+		
+		
+	
+		
+
+	
+		
+		
+}
+
+
+@media (max-width: 991.99px){
 	.form{
 		padding-left: 0px;
 		padding-right: 0px;
-
 	}
-	.btn1{
-		margin-left: -220px;
+	
+	.footer5{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: -170px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+
+	
+	.bio{
+		margin-left: 0px;
+		padding-left: -20px;
+	}
+	.img{
+		width: 50%;
+	}	
+}
+@media (max-width: 1200px){
+	.icon{
+		margin-left: 10px;
 	}
 	
 	
-
+	
+}
+@media (min-width: 1200px){
+	
 }
 
