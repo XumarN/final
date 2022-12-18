@@ -103,6 +103,7 @@
 	width: 100%;
 	min-height: 54.99px;
 	margin-bottom: 10px;
+	padding-left: 370px;
 	
 }
 .footer6{
@@ -113,84 +114,120 @@
 	justify-content: center;
 	font-size: 20px;
 }
+.iconss{
+		width: 55px;
+		height: 55px;
+		float: left;
+		border-radius: 6px;
+		transform: rotate(45deg);
+		background:#FF214F ;
+		padding-left: 5px;
+		margin-right: 20px;
+
+}		
+
 .icon1{
 	width: 45px;
 	height: 45px;
-	background: #FF214F;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	float: left;
 	margin-right: 20px;
-	margin-left: 360px;
-	transform: rotate(45deg) ;
-	border-radius: 5px;
+	margin-left: px;
 	margin-top: 5px;
 	font-size: 20px;
 	color: white;
+	background: #FF214F;
+	float: left	;
+	transform: rotate(315deg);
+
 }
 .icon2{
-	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
-	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	border-radius: 5px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
 	margin-top: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
 	color: white;
+	background: #FF214F;
+	transform: rotate(315deg);
+
+
 }
 .icon3{
-	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
-	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	border-radius: 5px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
 	margin-top: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
 	color: white;
+	background: #FF214F;
+	transform: rotate(315deg);
+
+
 }
 .icon4{
-	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
-	background: #FF214F;
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-	border-radius: 5px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
 	margin-top: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
 	color: white;
+	background: #FF214F;
+	transform: rotate(315deg);
+
 }
 .icon5{
-	transform: rotate(45deg) ;
 	width: 45px;
 	height: 45px;
-	background: #FF214F;
 	padding: 15px;
 	float: left;
-	border-radius: 5px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
 	margin-top: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
 	color: white;
+	background: #FF214F;
+	transform: rotate(315deg);
+
+
 
 }
 
@@ -545,9 +582,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 }
 .icons{
-	width: 100%;
+	width: 25%;
 	height: 80px;
-	/*background-color: #FF214F;*/
+	background-color: #FF214F;
 	display: flex;
 	align-items: center;
 	justify-content: center;	
@@ -555,8 +592,27 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-size: 30px;
 	padding-right: 80px;
 	transform: rotate(45deg);
+	border-radius: 6px;
+	margin-left: 90px;
 
 	
+
+}
+
+
+.mystyle1{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+	padding-right: 0px;
+	transform: rotate(315deg);
+	margin-left: 45px;
+	
+
+
 
 }
 .mystyle{
@@ -625,22 +681,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	transform: rotate(45deg);
 	
 }
-.mystyle1{
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 70px;
-	background: #FF214F;
-	padding-right: 0px;
-	border-radius: 6px;
-	margin-left: 45px;
-	
 
-
-
-}
 
 .clients1{
 	width: 100%;
@@ -883,9 +924,18 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-
-
-
+/*
+@media (max-width: 693.99px){
+	.footer5{
+		margin-left: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.icon1{
+		margin-left: 340px;
+	}
+}
+*/
 
 
 
@@ -967,14 +1017,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	@media (min-width: 768px) {
 		.card{
 			margin-bottom: 20px;
-		}
-		
-		
-		
-	
-		
-
-	
+		}	
 		
 		
 }
@@ -989,7 +1032,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.footer5{
 		padding-left: 0px;
 		padding-right: 0px;
-		margin-left: -170px;
+		margin-left: 150px;
 	}
 	.ll{
 		padding-left: 0px;
@@ -1010,14 +1053,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-
-
-
-
-
-
-
-
 @media (min-width: 992px){
 
 	
@@ -1032,6 +1067,20 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		margin-left:180px ;
 	}
 }
+@media (max-width:742.99px) {
+	.icon1{
+		margin-left: 150px;
+	}
+	.footer5{
+		margin-left: 150px;
+	}
+	.icon1{
+		margin-left: 0px;
+	}
+	
+}
+
+
 
 
 
