@@ -142,9 +142,10 @@
 	margin-top: 5px;
 	font-size: 20px;
 	color: white;
-	background: #FF214F;
+	background:transparent;
 	float: left	;
 	transform: rotate(315deg);
+	color: black;
 
 }
 .icon2{
@@ -163,8 +164,11 @@
 	align-items: center;
 	font-size: 20px;
 	color: white;
-	background: #FF214F;
+	background:transparent;
+
 	transform: rotate(315deg);
+		color: black;
+
 
 
 }
@@ -184,8 +188,9 @@
 	align-items: center;
 	font-size: 20px;
 	color: white;
-	background: #FF214F;
+	background: transparent;
 	transform: rotate(315deg);
+	color: black;
 
 
 }
@@ -205,8 +210,9 @@
 	align-items: center;
 	font-size: 20px;
 	color: white;
-	background: #FF214F;
+	background: transparent;
 	transform: rotate(315deg);
+	color: black;
 
 }
 .icon5{
@@ -224,8 +230,9 @@
 	align-items: center;
 	font-size: 20px;
 	color: white;
-	background: #FF214F;
+	background: transparent;
 	transform: rotate(315deg);
+	color: black;
 
 
 
@@ -435,6 +442,7 @@ li {
 	
 	
 }
+
 .email{
 	min-height: 51px;
 	width: 100%;
@@ -455,7 +463,8 @@ li {
 	justify-content: center;
 	font-size: 15px;
 	color: #ff214f;
-	padding-right: 750px;
+	padding-right: 655px;
+	margin-left: -50px;
 }
 .form-control{
 	margin-top: -41px;
@@ -582,7 +591,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 }
 .icons{
-	width: 25%;
+	width: 80px;
 	height: 80px;
 	background-color: #FF214F;
 	display: flex;
@@ -610,6 +619,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	padding-right: 0px;
 	transform: rotate(315deg);
 	margin-left: 45px;
+
 	
 
 
@@ -669,17 +679,27 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	
 }
 .clientsicon{
-	width: 100%;
+	width: 80px;
 	height: 80px;
-	/*background-color: #FF214F;*/
+	background-color: #FF214F;
 	display: flex;
 	align-items: center;
 	justify-content: center;	
 	margin-top: 30px;
 	font-size: 30px;
-	padding-right: 100px;
 	transform: rotate(45deg);
+	border-radius: 10px;
+	margin-left: 225px;
 	
+}
+.myss{
+	color: white;
+	transform: rotate(315deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
 }
 
 
@@ -700,6 +720,12 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	height: 20px;
 	
 }
+.found{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #777777;
+}
 .ll{
 	width: 100%;
 	min-height: 82.2px;
@@ -717,7 +743,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	cursor: pointer;
 	border-style: none;
 
-}
+}/*
 .menu1:hover{
 	background: #ff214f;
 	color: white;
@@ -735,7 +761,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	background: #ff214f;
 	color: white;
 
-}
+}*/
 
 /*.b:hover{
 	color: white;
@@ -757,6 +783,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 }
+
 .menu3{
 	background-color: white;
 	width: 70px;
@@ -905,10 +932,15 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-weight: bold;
 
 }
+.n{
+	font: 15px RAleway,sans-serif;
+	color: #777777;
+}
 
+.iconss:hover{
+	background: white;
 
-
-
+}
 
 
 
@@ -925,22 +957,16 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 /*
-@media (max-width: 693.99px){
-	.footer5{
-		margin-left: 20px;
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	.icon1{
-		margin-left: 340px;
-	}
+
+
+
+
+@media (max-width: 1016.99px){
+
+	
+	
 }
 */
-
-
-
-
-
 
 
 
@@ -956,14 +982,52 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		margin-top: 10px;
 	}
 	.footer5{
-		margin-left: -100px;
+		margin-left: -10px;
+		padding-left: 290px;
 	}
 	.menu1{
 		margin-left: 300px;
 	}
+	.icons{
+		margin-left: 70px;
+	}
 	
 	
 }
+
+@media (max-width: 1200px){
+	.clientsicon{
+		margin-left: 180px;
+	}
+	.footer5{
+		margin-left: 40px;
+		padding-left: 240px;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 767.98px) {
@@ -1002,11 +1066,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		padding-right: 50px;
 		
 	}
+	.clientsicon{
+		margin-left: 180px;
+	}
+	.icon{
 
-	
-	
-	
-	
+	}
+		
 	
     
 
@@ -1014,10 +1080,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	
 
 
-	@media (min-width: 768px) {
+@media (min-width: 768px) {
 		.card{
 			margin-bottom: 20px;
 		}	
+		
+		
+
 		
 		
 }
@@ -1049,6 +1118,25 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.main4{
 		margin-bottom: 100px;
 	}
+	.icons{
+		margin-left: 320px;
+	}
+	.footer5{
+		margin-left: 5px;
+		padding-left: 160px;
+
+	}
+	.clientsicon{
+		margin-left: 130px;
+	}
+	.icon{
+		margin-left: 0px;
+		padding-right: 630px;
+	}
+
+
+	
+
 }
 
 
@@ -1066,6 +1154,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.manu1{
 		margin-left:180px ;
 	}
+
+
+
 }
 @media (max-width:742.99px) {
 	.icon1{
@@ -1077,8 +1168,17 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.icon1{
 		margin-left: 0px;
 	}
-	
+	.icons{
+		margin-left: 300px;
+		}
+	.footer5{
+		margin-left: 20px;
+		padding-left: 125px;
+	}
+
+
 }
+
 
 
 
