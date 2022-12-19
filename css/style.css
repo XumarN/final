@@ -55,6 +55,50 @@
     padding-top: 50px;
     border-bottom: solid 1px #777;
 }
+
+.boxx{
+	width: 50px;
+	min-height: 50px;
+	margin-left: 575px;
+
+}
+
+
+
+
+.box span {
+	width: 20px;
+	height: 20px;
+  display: block;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+
+}
+
+.box span:nth-child(2) {
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+	animation-delay: -0.4s;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		transform: rotate(45deg) translate(10px, 10px);
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 .footer{
 	background: #333;
 }
@@ -441,6 +485,7 @@ li {
 	border: none;
 	
 	
+	
 }
 
 .email{
@@ -463,8 +508,9 @@ li {
 	justify-content: center;
 	font-size: 15px;
 	color: #ff214f;
-	padding-right: 655px;
-	margin-left: -50px;
+	padding-right: 750px;
+	margin-left: 0px;
+
 }
 .form-control{
 	margin-top: -41px;
@@ -618,7 +664,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	height: 70px;
 	padding-right: 0px;
 	transform: rotate(315deg);
-	margin-left: 45px;
+	margin-left: 40px;
 
 	
 
@@ -680,8 +726,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 .clientsicon{
 	width: 80px;
-	height: 80px;
-	background-color: #FF214F;
+	min-height: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;	
@@ -689,16 +734,22 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-size: 30px;
 	transform: rotate(45deg);
 	border-radius: 10px;
-	margin-left: 225px;
+	margin-left: 220px;
+
+	background-color: #FF214F;
+
 	
 }
 .myss{
+
+	
 	color: white;
 	transform: rotate(315deg);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+
 
 }
 
@@ -959,13 +1010,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-
-
-
 @media (max-width: 1200px){
-	.icon{
-		margin-left: 10px;
-	}
+	
 	.btn1{
 		margin-left: -220px;
 	}
@@ -982,17 +1028,23 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.icons{
 		margin-left: 70px;
 	}
+	.icon{
+		
+		padding-right: 670px;
+		margin-left: 10px;
+	}
+	.clientsicon{
+		margin-left: 170px;
+	}
 	
 	
 }
 
-@media (max-width: 1200px){
-	.clientsicon{
-		margin-left: 180px;
-	}
-	.footer5{
-		margin-left: 40px;
-		padding-left: 240px;
+@media (min-width: 1200px){
+	
+	
+	.icon{
+		padding-right: 750px;
 	}
 	
 	
@@ -1057,13 +1109,14 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		padding-right: 50px;
 		
 	}
+	
 	.clientsicon{
-		margin-left: 180px;
+		margin-left: 130px;
 	}
-	.icon{
-margin-left: 15px;
-		padding-right: 650px;
-	}
+	
+	
+
+	
 		
 	
     
@@ -1072,10 +1125,15 @@ margin-left: 15px;
 	
 
 
-@media (min-width: 768px) {
+@media (min-width: 767.99px) {
 		.card{
 			margin-bottom: 20px;
 		}
+		.main5{
+				
+		}
+
+		
 		
 		
 		
@@ -1119,13 +1177,14 @@ margin-left: 15px;
 		padding-left: 160px;
 
 	}
+	
+	.icon{
+		padding-right: 670px;
+	}
 	.clientsicon{
 		margin-left: 130px;
 	}
-	.icon{
-		margin-left: 0px;
-		padding-right: 690px;
-	}
+	
 
 
 	
@@ -1147,6 +1206,7 @@ margin-left: 15px;
 	.manu1{
 		margin-left:180px ;
 	}
+	
 
 
 
@@ -1171,12 +1231,22 @@ margin-left: 15px;
 
 
 }
-@media (max-width:732.99px) {
-	.icon{
-		margin-left: 15px;
-		padding-right: 650px;
+@media (max-width:694.99px) {
+
+}
+
+@media (max-width:732px) {
+	.clientsicon{
+		margin-left: 260px;
 	}
 }
+
+@media (max-width:737px) {
+	
+}
+
+
+
 
 
 
