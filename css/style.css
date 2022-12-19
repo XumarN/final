@@ -956,17 +956,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-/*
 
 
-
-
-@media (max-width: 1016.99px){
-
-	
-	
-}
-*/
 
 
 
@@ -1070,7 +1061,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		margin-left: 180px;
 	}
 	.icon{
-
+margin-left: 15px;
+		padding-right: 650px;
 	}
 		
 	
@@ -1083,7 +1075,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 @media (min-width: 768px) {
 		.card{
 			margin-bottom: 20px;
-		}	
+		}
+		
 		
 		
 
@@ -1131,7 +1124,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	}
 	.icon{
 		margin-left: 0px;
-		padding-right: 630px;
+		padding-right: 690px;
 	}
 
 
@@ -1177,6 +1170,12 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	}
 
 
+}
+@media (max-width:732.99px) {
+	.icon{
+		margin-left: 15px;
+		padding-right: 650px;
+	}
 }
 
 
