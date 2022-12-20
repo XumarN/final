@@ -66,6 +66,7 @@
 
 
 
+
 .box span {
 	width: 20px;
 	height: 20px;
@@ -704,7 +705,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 
-.happy1{
+#happy1{
 	width: 100%;
 	height: 352px;
 	float: left;
@@ -714,7 +715,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	
 	
 }
-.happy2{
+#happy2{
 	width: 100%;
 	min-height: 352px;
 	float: left;
@@ -723,6 +724,14 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	border: solid 1px #ddd;
 	
 	
+}
+#happy#{
+		width: 100%;
+	min-height: 352px;
+	float: left;
+	margin-top: 0px;
+	border-radius: 6px;
+	border: solid 1px #ddd;
 }
 .clientsicon{
 	width: 80px;
@@ -909,7 +918,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	color: white;
 }
 .b{
-	color: wheat;
+
+	color: red;
 
 }
 .part1{
@@ -1036,6 +1046,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.clientsicon{
 		margin-left: 170px;
 	}
+	.boxx{
+		margin-left:475px;
+	}
 	
 	
 }
@@ -1113,6 +1126,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.clientsicon{
 		margin-left: 130px;
 	}
+	.xx{
+	margin-right: 600px;
+}
 	
 	
 
@@ -1184,10 +1200,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.clientsicon{
 		margin-left: 130px;
 	}
-	
-
-
-	
+	.boxx{
+		margin-left: 350px;
+	}
 
 }
 
@@ -1206,8 +1221,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	.manu1{
 		margin-left:180px ;
 	}
-	
-
 
 
 }
