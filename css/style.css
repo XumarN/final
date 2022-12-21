@@ -1,11 +1,10 @@
-
-
-.main{
-	min-height:4728.85px;
+.main {
+	min-height: 4728.85px;
 	/*width:  1471.2px;*/
 	width: 100%;
 }
-.main1{
+
+.main1 {
 	min-height: 789px;
 	width: 100%;
 	border-bottom: solid 1px #777777;
@@ -13,7 +12,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.main2{
+
+.main2 {
 	min-height: 739.5px;
 	width: 100%;
 	background: white;
@@ -21,44 +21,54 @@
 
 
 }
-.mys{
+
+.menuRight {
+	float: right;
+}
+
+.mys {
 	background: rebeccapurple;
 }
-.main3{
+
+.main3 {
 	min-height: 708.3px;
 	width: 100%;
 	border-top: solid 1px #777;
 	border-bottom: solid 1px #777;
 }
-.main4{
+
+.main4 {
 	min-height: 1118.95px;
 	width: 100%;
 	/*background: pink;*/
 	border-bottom: solid 1px #777;
 }
-.main5{
+
+.main5 {
 	min-height: 721.6px;
 	width: 100%;
 	/*background: purple;*/
 	border-bottom: solid 1px #777;
 	border-top: solid 1px #777;
 }
-.main6{
+
+.main6 {
 	min-height: 711.5px;
 	width: 100%;
 	border-bottom: solid 1px #777;
 }
-.main7{
+
+.main7 {
 	min-height: 357px;
 	width: 100%;
 	background: #333;
-    text-align: center;
-    color: #fff;
-    padding-top: 50px;
-    border-bottom: solid 1px #777;
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	border-bottom: solid 1px #777;
 }
 
-.boxx{
+.boxx {
 	width: 50px;
 	min-height: 50px;
 	margin-left: 575px;
@@ -72,7 +82,7 @@
 .box span {
 	width: 20px;
 	height: 20px;
-  display: block;
+	display: block;
 	border-right: 2px solid #fff;
 	border-bottom: 2px solid #fff;
 	transform: rotate(45deg);
@@ -93,19 +103,22 @@
 	0% {
 		opacity: 0;
 	}
+
 	50% {
 		opacity: 1;
 		transform: rotate(45deg) translate(10px, 10px);
 	}
+
 	100% {
 		opacity: 0;
 	}
 }
 
-.footer{
+.footer {
 	background: #333;
 }
-.footer1{
+
+.footer1 {
 	width: 100%;
 	min-height: 25.5px;
 	margin-bottom: 10px;
@@ -116,7 +129,8 @@
 	padding-top: 10px;
 	color: white;
 }
-.footer2{
+
+.footer2 {
 	width: 100%;
 	min-height: 25.5px;
 	margin-bottom: 10px;
@@ -126,7 +140,8 @@
 	font-size: 15px;
 	padding-top: 10px;
 }
-.footer3{
+
+.footer3 {
 	width: 100%;
 	min-height: 25.5px;
 	margin-bottom: 10px;
@@ -136,7 +151,8 @@
 	font-size: 15px;
 	padding-top: 10px;
 }
-.footer4{
+
+.footer4 {
 	width: 100%;
 	min-height: 25.5px;
 	margin-bottom: 10px;
@@ -146,14 +162,16 @@
 	font-size: 15px;
 	padding-top: 10px;
 }
-.footer5{
+
+.footer5 {
 	width: 100%;
 	min-height: 54.99px;
 	margin-bottom: 10px;
 	padding-left: 370px;
-	
+
 }
-.footer6{
+
+.footer6 {
 	width: 100%;
 	min-height: 99.99px;
 	display: flex;
@@ -161,19 +179,20 @@
 	justify-content: center;
 	font-size: 20px;
 }
-.iconss{
-		width: 55px;
-		height: 55px;
-		float: left;
-		border-radius: 6px;
-		transform: rotate(45deg);
-		background:#FF214F ;
-		padding-left: 5px;
-		margin-right: 20px;
 
-}		
+.iconss {
+	width: 55px;
+	height: 55px;
+	float: left;
+	border-radius: 6px;
+	transform: rotate(45deg);
+	background: #FF214F;
+	padding-left: 5px;
+	margin-right: 20px;
 
-.icon1{
+}
+
+.icon1 {
 	width: 45px;
 	height: 45px;
 	border-style: solid;
@@ -189,37 +208,14 @@
 	margin-top: 5px;
 	font-size: 20px;
 	color: white;
-	background:transparent;
-	float: left	;
+	background: transparent;
+	float: left;
 	transform: rotate(315deg);
 	color: black;
 
 }
-.icon2{
-	width: 45px;
-	height: 45px;
-	padding: 15px;
-	float: left;
-	margin-right: 20px;
-	border-style: solid;
-	border-radius: 50%;
-	border-width: 1px;
-	border-color: black;
-	margin-top: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 20px;
-	color: white;
-	background:transparent;
 
-	transform: rotate(315deg);
-		color: black;
-
-
-
-}
-.icon3{
+.icon2 {
 	width: 45px;
 	height: 45px;
 	padding: 15px;
@@ -236,12 +232,15 @@
 	font-size: 20px;
 	color: white;
 	background: transparent;
+
 	transform: rotate(315deg);
 	color: black;
 
 
+
 }
-.icon4{
+
+.icon3 {
 	width: 45px;
 	height: 45px;
 	padding: 15px;
@@ -261,8 +260,32 @@
 	transform: rotate(315deg);
 	color: black;
 
+
 }
-.icon5{
+
+.icon4 {
+	width: 45px;
+	height: 45px;
+	padding: 15px;
+	float: left;
+	margin-right: 20px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color: black;
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	background: transparent;
+	transform: rotate(315deg);
+	color: black;
+
+}
+
+.icon5 {
 	width: 45px;
 	height: 45px;
 	padding: 15px;
@@ -287,16 +310,17 @@
 
 
 
-.aboutme{
-	
+.aboutme {
+
 	width: 100%;
-	min-height:168.5px;
+	min-height: 168.5px;
 	margin-bottom: 60px;
 	padding-top: 50px;
 	padding-right: 230px;
 
 }
-.about{
+
+.about {
 	width: 100%;
 	min-height: 58px;
 	display: flex;
@@ -310,23 +334,23 @@
 	padding-right: 325px;
 }
 
-.about::before{
-  position: absolute;
-    content: '';
-    bottom: -20px;
-    left: 390px;
-    width: 100px;
-    height: 6px;
-    z-index: 1;
-    margin-left: -53px;
-    border-radius: 10px;
-    border: 1px solid #ff214f;
+.about::before {
+	position: absolute;
+	content: '';
+	bottom: -20px;
+	left: 390px;
+	width: 100px;
+	height: 6px;
+	z-index: 1;
+	margin-left: -53px;
+	border-radius: 10px;
+	border: 1px solid #ff214f;
 
 
 
 }
 
-.the{
+.the {
 	width: 100%;
 	min-height: 25.5px;
 	color: #777777;
@@ -338,27 +362,29 @@
 	font-style: sans-serif;
 	padding-right: 300px;
 }
-.photo{
+
+.photo {
 	width: 100%;
 	height: 370px;
-	
-	
+
+
 
 }
 
-.bio{
+.bio {
 	float: left;
 	width: 100%;
 	min-height: 326px;
 	color: #777777;
-	
+
 	margin-top: 20px;
 	margin-bottom: 100px;
-	
+
 
 
 }
-.quick{
+
+.quick {
 	color: black;
 	font-size: 18px;
 	width: 100%;
@@ -366,61 +392,67 @@
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
-.aboutme1{
-	min-height:232px ;
+
+.aboutme1 {
+	min-height: 232px;
 	width: 100%;
 	font-size: 15px;
 	color: #777777;
 	display: flex;
 	align-items: flex-start;
 	justify-content: left;
-	
+
 }
-.btn, input[type='submit'] {
-    display: inline-block;
-    padding: 10px 25px;
-    border: none;
-    color: #fff;
-    background: #ff214f;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
+
+.btn,
+input[type='submit'] {
+	display: inline-block;
+	padding: 10px 25px;
+	border: none;
+	color: #fff;
+	background: #ff214f;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
 }
+
 .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
 }
+
 li {
 	list-style: none;
 }
 
-.contactme{
+.contactme {
 	width: 100%;
-	min-height:168.5px;
+	min-height: 168.5px;
 	margin-bottom: 60px;
 	padding-top: 50px;
 	padding-right: 230px;
 }
-.contactme1{
+
+.contactme1 {
 	width: 100%;
 	min-height: 58px;
 	display: flex;
@@ -432,20 +464,22 @@ li {
 	font-size: 30px;
 	position: relative;
 }
-.contactme1::before{
- 	position: absolute;
-    content: '';
-    bottom: -20px;
-   
-    left: 50%;
-    width: 100px;
-    height: 6px;
-    z-index: 1;
-    margin-left: -53px;
-    border-radius: 10px;
-    border: 1px solid #ff214f;
+
+.contactme1::before {
+	position: absolute;
+	content: '';
+	bottom: -20px;
+
+	left: 50%;
+	width: 100px;
+	height: 6px;
+	z-index: 1;
+	margin-left: -53px;
+	border-radius: 10px;
+	border: 1px solid #ff214f;
 }
-.the1{
+
+.the1 {
 	width: 100%;
 	height: 25.5px;
 	color: #777777;
@@ -456,54 +490,60 @@ li {
 	font-size: 15px;
 	font-style: sans-serif;
 }
+
 .form-control {
-    display: block;
-    width: 100%;
-    min-height: 34px;
-    padding: 6px 25px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+	display: block;
+	width: 100%;
+	min-height: 34px;
+	padding: 6px 25px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
-.actions{
+
+.actions {
 	margin-left: 440px;
 	margin-top: 50px;
 }
-.form{
+
+.form {
 	width: 100%;
 	min-height: 324px;
 	margin-top: -33px;
 	padding-right: 180px;
-    padding-left: 180px;
+	padding-left: 180px;
 
 }
-.user{
+
+.user {
 	width: 100%;
 	min-height: 51px;
 	margin: 20px 0px 5px 0px;
 	border: none;
-	
-	
-	
+
+
+
 }
 
-.email{
+.email {
 	min-height: 51px;
 	width: 100%;
 	margin-bottom: 5px;
 	margin-top: 20px;
 
 }
-.message{
+
+.message {
 	width: 100%;
 	min-height: 105px;
 	margin-top: 20px;
 }
-.icon{
+
+.icon {
 	width: 100%;
 	min-height: 50px;
 	display: flex;
@@ -515,51 +555,59 @@ li {
 	margin-left: 0px;
 
 }
-.form-control{
+
+.form-control {
 	margin-top: -41px;
 }
 
-.btn1, input[type='submit'] {
-    display: inline-block;
-    padding: 10px 25px;
-    border: none;
-    color: #fff;
-    background: #ff214f;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
+.btn1,
+input[type='submit'] {
+	display: inline-block;
+	padding: 10px 25px;
+	border: none;
+	color: #fff;
+	background: #ff214f;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
 }
-button, html input[type=button], input[type=reset], input[type=submit] {
-    -webkit-appearance: button;
-    cursor: pointer;
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+
+	cursor: pointer;
 }
+
 .btn1 {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin-left: -150px;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-left: -150px;
 }
-.what{
+
+.what {
 	width: 100%;
-	min-height:168.5px;
+	min-height: 168.5px;
 	margin-bottom: 130px;
 	padding-top: 50px;
 	margin-left: 150px;
@@ -567,7 +615,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	padding-right: 600px;
 }
 
-.what1{
+.what1 {
 	width: 100%;
 	min-height: 58px;
 	display: flex;
@@ -579,20 +627,22 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-size: 30px;
 	position: relative;
 }
-.what1::before{
-    position: absolute;
-    content: '';
-    bottom: -20px;
-    left: 50%;
-    width: 100px;
-    height: 6px;
-    z-index: 1;
-    margin-left: -53px;
-    border-radius: 10px;
-    border: 1px solid #ff214f;
+
+.what1::before {
+	position: absolute;
+	content: '';
+	bottom: -20px;
+	left: 50%;
+	width: 100px;
+	height: 6px;
+	z-index: 1;
+	margin-left: -53px;
+	border-radius: 10px;
+	border: 1px solid #ff214f;
 
 }
-.the2{
+
+.the2 {
 	width: 100%;
 	min-height: 25.5px;
 	color: #777777;
@@ -603,24 +653,28 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-size: 15px;
 	font-style: sans-serif;
 }
+
 .service-box {
-    margin: auto;
-    margin-top: 30px;
-    padding: 40px 25px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}.service-box span {
-    font-size: 25px;
-    color: #fff;
-    width: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    line-height: 70px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 40px 25px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 5px;
 }
-.card{
+
+.service-box span {
+	font-size: 25px;
+	color: #fff;
+	width: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	line-height: 70px;
+}
+
+.card {
 	width: 100%;
 	min-height: 338.8px;
 	margin-top: 0px;
@@ -631,21 +685,23 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	padding-bottom: 10px;
 
 }
-.text{
+
+.text {
 	width: 100%;
 	min-height: 102px;
 	font-size: 15px;
 	margin-top: 15px;
-	
+
 
 }
-.icons{
+
+.icons {
 	width: 80px;
 	height: 80px;
 	background-color: #FF214F;
 	display: flex;
 	align-items: center;
-	justify-content: center;	
+	justify-content: center;
 	margin-top: 30px;
 	font-size: 30px;
 	padding-right: 80px;
@@ -653,12 +709,12 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	border-radius: 6px;
 	margin-left: 90px;
 
-	
+
 
 }
 
 
-.mystyle1{
+.mystyle1 {
 	color: white;
 	display: flex;
 	align-items: center;
@@ -669,22 +725,23 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	transform: rotate(315deg);
 	margin-left: 40px;
 
-	
+
 
 
 
 }
-.mystyle{
+
+.mystyle {
 	width: 100%;
 	min-height: 24px;
-	font-size:30px ;
+	font-size: 30px;
 	transform: rotate(315deg);
 	padding-top: 35px;
 	color: white;
 }
 
 
-.text1{
+.text1 {
 	margin-bottom: 10px;
 	display: flex;
 	align-items: center;
@@ -693,7 +750,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	width: 100%;
 	min-height: 20px;
 }
-.text2{
+
+.text2 {
 	width: 100%;
 	min-height: 102px;
 	display: flex;
@@ -707,40 +765,43 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 
-#happy1{
+#happy1 {
 	width: 100%;
 	height: 352px;
 	float: left;
 	margin-top: 0px;
 	border-radius: 6px;
 	border: solid 1px #ddd;
-	
-	
+
+
 }
-#happy2{
+
+#happy2 {
 	width: 100%;
 	min-height: 352px;
 	float: left;
 	margin-top: 0px;
 	border-radius: 6px;
 	border: solid 1px #ddd;
-	
-	
+
+
 }
-#happy#{
-		width: 100%;
+
+#happy {
+	width: 100%;
 	min-height: 352px;
 	float: left;
 	margin-top: 0px;
 	border-radius: 6px;
 	border: solid 1px #ddd;
 }
-.clientsicon{
+
+.clientsicon {
 	width: 80px;
 	min-height: 80px;
 	display: flex;
 	align-items: center;
-	justify-content: center;	
+	justify-content: center;
 	margin-top: 30px;
 	font-size: 30px;
 	transform: rotate(45deg);
@@ -749,11 +810,12 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 	background-color: #FF214F;
 
-	
-}
-.myss{
 
-	
+}
+
+.myss {
+
+
 	color: white;
 	transform: rotate(315deg);
 	display: flex;
@@ -765,7 +827,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 
-.clients1{
+.clients1 {
 	width: 100%;
 	min-height: 85px;
 	display: flex;
@@ -774,38 +836,44 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	margin-top: 30px;
 	padding: 20px;
 }
-.clientsmr{
+
+.clientsmr {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	height: 20px;
-	
+
 }
-.found{
+
+.found {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: #777777;
 }
-.ll{
+
+.ll {
 	width: 100%;
 	min-height: 82.2px;
 	margin-bottom: 30px;
 }
-.menu1{
+
+.menu1 {
 	background-color: white;
 	width: 70px;
 	height: 80px;
 	margin-right: 0px;
-	margin-left:400px ;
+	margin-left: 400px;
 	float: left;
 	margin-top: 5px;
 	border-radius: 10px;
 	cursor: pointer;
 	border-style: none;
 
-}/*
+}
+
+/*
 .menu1:hover{
 	background: #ff214f;
 	color: white;
@@ -828,11 +896,11 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 /*.b:hover{
 	color: white;
 }*/
-.iconnn:hover{
+.iconnn:hover {
 	color: white;
 }
 
-.menu2{
+.menu2 {
 	background-color: white;
 	width: 70px;
 	height: 80px;
@@ -846,19 +914,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 }
 
-.menu3{
-	background-color: white;
-	width: 70px;
-	height:80px;
-	margin-left: 10px;
-	float: left;
-	margin-top: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	border-style: none;
-
-}
-.menu4{
+.menu3 {
 	background-color: white;
 	width: 70px;
 	height: 80px;
@@ -870,7 +926,21 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	border-style: none;
 
 }
-.iconnn{
+
+.menu4 {
+	background-color: white;
+	width: 70px;
+	height: 80px;
+	margin-left: 10px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	border-style: none;
+
+}
+
+.iconnn {
 	width: 100%;
 	min-height: 20px;
 	margin-top: 5px;
@@ -880,7 +950,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	color: white;
 	font-size: 25px;
 }
-.textt{
+
+.textt {
 	width: 100%;
 	min-height: 30px;
 	display: flex;
@@ -890,10 +961,11 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-style: italic;
 	font-size: 16px;
 }
-.developer{
+
+.developer {
 	width: 100%;
 	min-height: 266.6px;
-	margin-top:250px;
+	margin-top: 250px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -901,7 +973,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 }
-.mr{
+
+.mr {
 	min-height: 30px;
 	width: 100%;
 	display: flex;
@@ -909,68 +982,78 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	justify-content: center;
 	color: white;
 	margin-top: -20px;
-	font: 26px Raleway ,sans-serif;
+	font: 26px Raleway, sans-serif;
 	text-align: center;
 }
-.h{
+
+.h {
 	font-size: 100px;
 	font-weight: bold;
 }
-.s{
+
+.s {
 	color: white;
 }
-.b{
+
+.b {
 
 	color: red;
 
 }
-.part1{
+
+.part1 {
 	width: 100%;
 	min-height: 290px;
 	margin-bottom: 30px;
 }
-.part2{
+
+.part2 {
 	width: 100%;
 	min-height: 290px;
 	margin-bottom: 100px;
 }
-.this1{
+
+.this1 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 	margin-left: 0px;
-	
+
 }
-.this1:hover{
-	
-}
-.this2{
+
+.this1:hover {}
+
+.this2 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 }
-.this3{
+
+.this3 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 	margin-left: 10px;
 
 }
-.this4{
+
+.this4 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 	margin-left: 0px;
 	margin-bottom: 100px;
-	
+
 }
-.this5{
+
+.this5 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 	margin-bottom: 100px;
 }
-.this6{
+
+.this6 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
@@ -978,11 +1061,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	margin-bottom: 100px;
 
 }
-.sekil{
+
+.sekil {
 	width: 100%;
 	min-height: 246px;
 }
-.soz{
+
+.soz {
 	background: #ff214f;
 	width: 100%;
 	min-height: 44px;
@@ -995,19 +1080,22 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	font-weight: bold;
 
 }
-.n{
-	font: 15px RAleway,sans-serif;
+
+.n {
+	font: 15px RAleway, sans-serif;
 	color: #777777;
 }
 
-.iconss:hover{
+.iconss:hover {
 	background: white;
 
 }
-.btn1:hover{
+
+.btn1:hover {
 	background: #333;
 }
-.btn:hover{
+
+.btn:hover {
 	color: white;
 	background: #333;
 }
@@ -1028,48 +1116,55 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-@media (max-width: 1200px){
-	
-	.btn1{
+@media (max-width: 1200px) {
+
+	.btn1 {
 		margin-left: -220px;
 	}
-	.btn{
+
+	.btn {
 		margin-top: 10px;
 	}
-	.footer5{
+
+	.footer5 {
 		margin-left: -10px;
 		padding-left: 290px;
 	}
-	.menu1{
+
+	.menu1 {
 		margin-left: 300px;
 	}
-	.icons{
+
+	.icons {
 		margin-left: 70px;
 	}
-	.icon{
-		
+
+	.icon {
+
 		padding-right: 670px;
 		margin-left: 10px;
 	}
-	.clientsicon{
+
+	.clientsicon {
 		margin-left: 170px;
 	}
-	.boxx{
-		margin-left:475px;
+
+	.boxx {
+		margin-left: 475px;
 	}
-	
-	
+
+
 }
 
-@media (min-width: 1200px){
-	
-	
-	.icon{
+@media (min-width: 1200px) {
+
+
+	.icon {
 		padding-right: 750px;
 	}
-	
-	
-	
+
+
+
 }
 
 
@@ -1095,23 +1190,25 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 @media (max-width: 767.98px) {
-	.card{
+	.card {
 		margin-bottom: 20px;
 	}
-	
-	.happy1{
+
+	.happy1 {
 		margin-bottom: 40px;
 	}
-	.happy2{
+
+	.happy2 {
 		margin-bottom: 40px;
 	}
-	.form{
+
+	.form {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	
-	
-	.btn{
+
+
+	.btn {
 		margin-top: -40px;
 		min-height: 40px;
 		width: 141px;
@@ -1119,96 +1216,108 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 		align-items: center;
 		justify-content: center;
 	}
-	
-	.photo{
+
+	.photo {
 		vertical-align: middle;
 	}
-	
-	
-	.text2{
-		
+
+
+	.text2 {
+
 		padding-right: 50px;
-		
+
 	}
-	
-	.clientsicon{
+
+	.clientsicon {
 		margin-left: 130px;
 	}
-	.xx{
-	margin-right: 600px;
+
+	.xx {
+		margin-right: 600px;
+	}
+
+	.menuRight {
+		float: left;
+	}
+
+
+
+
+
+
+
+
 }
-	
-	
 
-	
-		
-	
-    
-
-}	
-	
 
 
 @media (min-width: 767.99px) {
-		.card{
-			margin-bottom: 20px;
-		}
-		.main5{
-				
-		}
+	.card {
+		margin-bottom: 20px;
+	}
 
-		
-		
-		
-		
+	.main5 {}
 
-		
-		
+
+
+
+
+
+
+
 }
 
 
-@media (max-width: 991.99px){
-	.form{
+@media (max-width: 991.99px) {
+	.form {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	
-	.footer5{
+
+	.footer5 {
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: 150px;
 	}
-	.ll{
+
+	.ll {
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	.menu1{
+
+	.menu1 {
 		margin-left: 180px;
 	}
-	.btn1{
+
+	.btn1 {
 		margin-left: -200px;
 	}
-	.main4{
+
+	.main4 {
 		margin-bottom: 100px;
 	}
-	.icons{
+
+	.icons {
 		margin-left: 320px;
 	}
-	.footer5{
+
+	.footer5 {
 		margin-left: 5px;
 		padding-left: 160px;
 
 	}
-	
-	.icon{
+
+	.icon {
 		padding-right: 670px;
 	}
-	.clientsicon{
+
+	.clientsicon {
 		margin-left: 130px;
 	}
-	.boxx{
+
+	.boxx {
 		margin-left: 350px;
 	}
 
@@ -1216,55 +1325,59 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
 
-	
-	.bio{
+
+	.bio {
 		margin-left: 0px;
 		padding-left: -20px;
 	}
-	.img{
+
+	.img {
 		width: 50%;
-	}	
-	.manu1{
-		margin-left:180px ;
+	}
+
+	.manu1 {
+		margin-left: 180px;
 	}
 
 
 }
+
 @media (max-width:742.99px) {
-	.icon1{
+	.icon1 {
 		margin-left: 150px;
 	}
-	.footer5{
+
+	.footer5 {
 		margin-left: 150px;
 	}
-	.icon1{
+
+	.icon1 {
 		margin-left: 0px;
 	}
-	.icons{
+
+	.icons {
 		margin-left: 300px;
-		}
-	.footer5{
+	}
+
+	.footer5 {
 		margin-left: 20px;
 		padding-left: 125px;
 	}
 
 
 }
-@media (max-width:694.99px) {
 
-}
+@media (max-width:694.99px) {}
 
 @media (max-width:732px) {
-	.clientsicon{
+	.clientsicon {
 		margin-left: 260px;
 	}
 }
 
-@media (max-width:737px) {
-	
-}
+@media (max-width:737px) {}
 
 
 
@@ -1275,3 +1388,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 
 
+
+
+<div class="contain"><div id="owl-carousel" class="owl-carousel owl-theme"><div class="item">1 </div><div class="item">2 </div><div class="item">3 </div><div class="item">4 </div><div class="item">5 </div><div class="item">6 </div></div></div>
