@@ -10,20 +10,36 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<style >
-			html{
- 		 		scroll-behavior: smooth;
-				}
-		</style>
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+	<style>
+		.addon {
+			color: #ff0000;
+			background-color: #ffffff;
+			border-right: none
+		}
 
+		.myInput {
+			border-left: none;
+		}
+	</style>
 
 </head>
 
-<body style="" data-target=".navbar" >
+<body data-target=".navbar">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="main" id="section1">
@@ -42,9 +58,9 @@
 									href="#"><b>SHOWKIL</b></a>
 							</div>
 							<div>
-								<div class="collapse navbar-collapse" id="myNavbar">
-									<ul style="float: right;" class="nav navbar-nav">
-										<li class="xx"><a  href="#section1"> Home</a></li>
+								<div class="collapse navbar-collapse menuRight" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="xx"><a href="#section1"> Home</a></li>
 										<li><a href="#section2">About</a></li>
 										<li><a href="#section3">Services</a></li>
 										<li><a href="#section4">Work</a></li>
@@ -70,21 +86,21 @@
 								</div>
 								<div class="mr">
 									<p>Mr. Michael Jackson
-										
+
 									</p>
-									
-									
+
+
 								</div>
 
-									<div class="boxx">
-											<a href="#section2">
-  											<div  class="box">
-    											<span></span>
-   												<span></span>
-    											<span></span>
-  											</div>
-											</a>
-									</div>
+								<div class="boxx">
+									<a href="#section2">
+										<div class="box">
+											<span></span>
+											<span></span>
+											<span></span>
+										</div>
+									</a>
+								</div>
 
 							</div>
 						</div>
@@ -93,7 +109,7 @@
 
 				</div>
 
-				<div class= " main2"  id="section2">
+				<div class="main2" id="section2">
 					<div class="container ">
 
 						<div class="row">
@@ -171,12 +187,12 @@
 													</div>
 												</div>
 											</div>
-											
+
 										</div>
 										<div class="col-xs-12 col-sm-12 col-lg-3 col-md-3 ">
 											<div class="card">
 												<div class="icons">
-													<a href="#"><i  class="fa fa-layer-group mystyle1"
+													<a href="#"><i class="fa fa-layer-group mystyle1"
 															aria-hidden="true"></i></a>
 												</div>
 												<div class="text">
@@ -236,6 +252,205 @@
 
 						</div>
 					</div>
+
+
+
+
+					<!-- ///////////////// RZA SECTION //////////////////////////////////////////////////////////////// -->
+					<style>
+						#rza {
+							width: 100%;
+							min-height: 400px;
+							background: grey;
+							float: left;
+						}
+
+
+						#wrapper {
+							margin-top: 30px;
+						}
+
+						#filter {
+							list-style-type: none;
+						}
+
+						#filter li {
+							display: inline-block;
+							margin-right: 15px;
+						}
+
+						#filter li:hover {
+							color: red;
+							cursor: pointer;
+						}
+
+						#filter li.active {
+							color: red;
+						}
+
+						#portfolio {
+							list-style-type: none;
+							padding-left: 0;
+						}
+
+						#portfolio li {
+							float: left;
+							margin: 20px;
+						}
+
+						#portfolio li img {
+							max-width: 100%;
+						}
+					</style>
+					<section id="rza">
+
+
+						<div id="wrapper">
+							<ul id="filter">
+								<li class="active">All</li>
+								<li>app</li>
+								<li>web</li>
+								<li>Nature</li>
+							</ul>
+							<ul id="portfolio">
+
+								<li class="all app">
+									<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
+										<div class="this2 ">
+											<!-- Trigger the modal with a button -->
+
+											<!-- Modal start -->
+											<div class="modal fade" id="myModal1" role="dialog">
+												<div class="modal-dialog">
+
+													<!-- Modal content-->
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close"
+																data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															<img style="width: 100%; height: 318px;"
+																src="https://infolook.net/tf_preview/showkil/assets/img/works/2.jpg">
+														</div>
+
+													</div>
+
+												</div>
+											</div>
+											<!-- Modal end -->
+
+											<!-- your img start -->
+											<div class="sekil">
+												<img style="width: 100%; height:246px"
+													src="https://infolook.net/tf_preview/showkil/assets/img/works/2.jpg"
+													data-toggle="modal" data-target="#myModal1">
+											</div>
+											<!-- your img end -->
+
+
+											<div class="soz" id="root">
+												<span>This is project Title</span>
+											</div>
+
+										</div>
+									</div>
+								</li>
+
+
+								<li class="all app">
+									<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
+										<div class="this2 ">
+											<!-- Trigger the modal with a button -->
+
+											<!-- Modal start -->
+											<div class="modal fade" id="myModal2" role="dialog">
+												<div class="modal-dialog">
+
+													<!-- Modal content-->
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close"
+																data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															<img style="width: 100%; height: 318px;"
+																src="https://infolook.net/tf_preview/showkil/assets/img/works/2.jpg">
+														</div>
+
+													</div>
+
+												</div>
+											</div>
+											<!-- Modal end -->
+
+											<!-- your img start -->
+											<div class="sekil">
+												<img style="width: 100%; height:246px"
+													src="https://infolook.net/tf_preview/showkil/assets/img/works/2.jpg"
+													data-toggle="modal" data-target="#myModal2">
+											</div>
+											<!-- your img end -->
+
+
+											<div class="soz" id="root">
+												<span>This is project Title</span>
+											</div>
+
+										</div>
+									</div>
+								</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							</ul>
+
+						</div>
+
+
+					</section>
+
+					<script>
+						$(function () {
+
+							$("#filter li").click(function () {
+
+								var category = $(this).html();
+
+								category = category.toLowerCase();
+
+								$("#filter li").removeClass("active");
+
+								$(this).addClass("active");
+
+								$("#portfolio li").fadeOut();
+
+								$("#portfolio li").each(function () {
+
+									if ($(this).hasClass(category)) {
+										$(this).fadeIn();
+									}
+
+								});
+
+							});
+
+						});
+					</script>
+					<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+
 					<div class="main4" id="section4">
 						<div class="container">
 							<div class="row">
@@ -251,14 +466,15 @@
 							<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
 								<div class="ll">
 
-									
-									<button class="menu1" onclick="color()" >
+
+									<button class="menu1" onclick="color()">
 										<div class="iconnn">
 
- 
- 
 
-											<a href="#"><i  style="color: #777777;" class="fab fa-facebook b"  aria-hidden="true"></i></a>
+
+
+											<a href="#"><i style="color: #777777;" class="fab fa-facebook b"
+													aria-hidden="true"></i></a>
 											<p class="textt">All</p>
 										</div>
 
@@ -266,10 +482,11 @@
 
 
 
-								
+
 									<button class="menu2">
 										<div class="iconnn">
-											<a href="#"><i style="color: #777777;" class="fab fa-facebook b " aria-hidden="true"></i></a>
+											<a href="#"><i style="color: #777777;" class="fab fa-facebook b "
+													aria-hidden="true"></i></a>
 											<p class="textt">Web</p>
 										</div>
 
@@ -278,7 +495,8 @@
 
 									<button class="menu3">
 										<div class="iconnn">
-											<a href="#"><i style="color: #777777;" class="fab fa-facebook b " aria-hidden="true"></i></a>
+											<a href="#"><i style="color: #777777;" class="fab fa-facebook b "
+													aria-hidden="true"></i></a>
 											<p class="textt">App</p>
 										</div>
 									</button>
@@ -286,7 +504,8 @@
 
 									<button class="menu4">
 										<div class="iconnn">
-											<a href="#"><i style="color: #777777;" class="fab fa-facebook  b" aria-hidden="true"></i></a>
+											<a href="#"><i style="color: #777777;" class="fab fa-facebook  b"
+													aria-hidden="true"></i></a>
 											<p class="textt">Graphic</p>
 										</div>
 
@@ -299,39 +518,34 @@
 								<div class="part1">
 
 
-									<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
-										<div class="this1 " data-toggle="modal" data-target="#myModal">
-											<!-- Trigger the modal with a button -->
 
+									<div class="modal fade" id="myModal" role="dialog">
+										<div class="modal-dialog">
 
-											<!-- Modal -->
-											<div class="modal fade" id="myModal" role="dialog">
-												<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
 
-													<!-- Modal content-->
-													<div class="modal-content">
-														<div class="modal-header">
-															<button type="button" class="close"
-																data-dismiss="modal">&times;</button>
-														</div>
-														<div class="modal-body">
-															<img style="width: 100%; height: 318px;"
-																src="https://infolook.net/tf_preview/showkil/assets/img/works/1.jpg">
-														</div>
-
-													</div>
-
+												<div class="modal-header">
+													<button type="button" class="close"
+														data-dismiss="modal">&times;</button>
+													<h4 class="modal-title"></h4>
 												</div>
+
+												<div class="modal-body">
+													<img style="width: 100%; height:246px"
+														src="https://infolook.net/tf_preview/showkil/assets/img/works/1.jpg">
+												</div>
+
+
+
 											</div>
-											<div class="sekil">
-												<img style="width: 100%; height:246px"
-													src="https://infolook.net/tf_preview/showkil/assets/img/works/1.jpg">
-											</div>
-											<div class="soz" id="root">
-												<span>This is project Title</span>
-											</div>
+
 										</div>
 									</div>
+
+
+
+
 
 
 									<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
@@ -372,7 +586,7 @@
 									<div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
 										<div class="this3 " data-toggle="modal" data-target="#myModal2">
 											<!-- Trigger the modal with a button -->
-											
+
 
 											<!-- Modal -->
 											<div class="modal fade" id="myModal2" role="dialog">
@@ -418,7 +632,7 @@
 														<div class="modal-header">
 															<button type="button" class="close"
 																data-dismiss="modal">&times;</button>
-													
+
 														</div>
 														<div class="modal-body">
 															<img style="width: 100%; height: 318px;"
@@ -453,7 +667,7 @@
 														<div class="modal-header">
 															<button type="button" class="close"
 																data-dismiss="modal">&times;</button>
-														
+
 														</div>
 														<div class="modal-body">
 															<img style="width: 100%; height: 318px;"
@@ -526,13 +740,14 @@
 										</div>
 
 										<div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-										
+
 											<div id="happy1">
 												<div class="clientsicon"><a href="#"><i class="  fab fa-facebook myss"
 															aria-hidden="true"></i></a>
 												</div>
 												<div class="clients1">
-													<p class="n">The new common language will be more simple and regular than. It
+													<p class="n">The new common language will be more simple and regular
+														than. It
 														will
 														be more
 														Occidental in fact. The new common language will be more simple
@@ -566,7 +781,7 @@
 												</div>
 												<div class="clientsmr">
 													<h4> <b>- Mr. Jonathon Doe</b></h4>
-													
+
 												</div>
 												<div class="found">
 													<p class="desg">Founder of web_bean</p>
@@ -654,14 +869,15 @@
 															</div>
 															<div class="email">
 																<div class="icon">
-																	<i class="fas fa-paper-plane" aria-hidden="true"></i>
+																	<i class="fas fa-paper-plane"
+																		aria-hidden="true"></i>
 																</div>
 																<input type="email" name="email" class="form-control"
 																	id="email" placeholder="Email" required="required">
 															</div>
 															<div class="message">
 																<div class="icon">
-																
+
 																	<i class="fa fa-envelope-square"
 																		aria-hidden="true"></i>
 																</div>
@@ -729,18 +945,22 @@
 									<li><a href="#"><i class="fab fa-tumblr icon4" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fab fa-linkedin icon5" aria-hidden="true"></i></a></li> -->
 									<div class="iconss">
-										<li><a href="#"><i class="fab fa-facebook icon1  " aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fab fa-facebook icon1  " aria-hidden="true"></i></a>
+										</li>
 									</div>
 									<div class="iconss">
 										<a href="#"><i class="fab fa-twitter icon2 " aria-hidden="true"></i></a></li>
 									</div>
 									<div class="iconss">
-										<li><a href="#"><i class="fab fa-google-plus-g icon3"aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fab fa-google-plus-g icon3"
+													aria-hidden="true"></i></a></li>
 									</div>
 									<div class="iconss">
-										<li><a href="#"><i class="fab fa-tumblr icon4" aria-hidden="true"></i></a></li>		</div>
+										<li><a href="#"><i class="fab fa-tumblr icon4" aria-hidden="true"></i></a></li>
+									</div>
 									<div class="iconss">
-										<li><a href="#"><i class="fab fa-linkedin icon5" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin icon5" aria-hidden="true"></i></a>
+										</li>
 									</div>
 
 								</ul>
