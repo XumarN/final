@@ -787,7 +787,7 @@ input[type=submit] {
 
 }
 
-#happy {
+#happy3{
 	width: 100%;
 	min-height: 352px;
 	float: left;
@@ -859,86 +859,10 @@ input[type=submit] {
 	margin-bottom: 30px;
 }
 
-.menu1 {
-	background-color: white;
-	width: 70px;
-	height: 80px;
-	margin-right: 0px;
-	margin-left: 400px;
-	float: left;
-	margin-top: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	border-style: none;
-
-}
-
-/*
-.menu1:hover{
-	background: #ff214f;
-	color: white;
-
-}
-.menu2:hover{
-	background: #ff214f;
-
-}
-.menu3:hover{
-	background: #ff214f;
-
-}
-.menu4:hover{
-	background: #ff214f;
-	color: white;
-
-}*/
-
-/*.b:hover{
-	color: white;
-}*/
 .iconnn:hover {
 	color: white;
 }
 
-.menu2 {
-	background-color: white;
-	width: 70px;
-	height: 80px;
-	margin-left: 10px;
-	float: left;
-	margin-top: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	border-style: none;
-
-
-}
-
-.menu3 {
-	background-color: white;
-	width: 70px;
-	height: 80px;
-	margin-left: 10px;
-	float: left;
-	margin-top: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	border-style: none;
-
-}
-
-.menu4 {
-	background-color: white;
-	width: 70px;
-	height: 80px;
-	margin-left: 10px;
-	float: left;
-	margin-top: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	border-style: none;
-
-}
 
 .iconnn {
 	width: 100%;
@@ -1018,6 +942,8 @@ input[type=submit] {
 	width: 100%;
 	min-height: 290px;
 	margin-left: 0px;
+	background-size: cover;
+
 
 }
 
@@ -1099,6 +1025,34 @@ input[type=submit] {
 	color: white;
 	background: #333;
 }
+
+
+/*input.search, span {
+  margin-top: 20px;
+}
+
+input.search {
+  margin-left: 20px;
+}
+
+ul.list {
+  padding: 0;
+  list-style: none;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.list li {
+  padding: 10px 20px;
+}
+
+.list li + li {
+  border-top: 1px solid #ccc;
+}
+
+*/
 
 
 
@@ -1209,7 +1163,6 @@ input[type=submit] {
 
 
 	.btn {
-		margin-top: -40px;
 		min-height: 40px;
 		width: 141px;
 		display: flex;
@@ -1388,6 +1341,6 @@ input[type=submit] {
 
 
 
-
+/*
 
 <div class="contain"><div id="owl-carousel" class="owl-carousel owl-theme"><div class="item">1 </div><div class="item">2 </div><div class="item">3 </div><div class="item">4 </div><div class="item">5 </div><div class="item">6 </div></div></div>
