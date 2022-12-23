@@ -1347,15 +1347,22 @@ ul.list {
 
 }
 
-@media (max-width:694.99px) {}
-
 @media (max-width:732px) {
 	.clientsicon {
 		margin-left: 260px;
 	}
 }
 
-@media (max-width:737px) {}
+
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: white url('http://www.heifer-ecuador.org/wp-content/uploads/AAPL/loaders/ajaxloader.gif') no-repeat center center;
+    background-size: 10%;
+    float: left;
+    position: fixed;
+    z-index: 100;
+}
 
 
 
