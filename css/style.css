@@ -1,3 +1,78 @@
+.allwrps {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mImg{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.single {
+
+    text-align: center;
+    margin: 0 5px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;     
+}
+.btns {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.btns button {
+        cursor: pointer;
+    transition: .3s;
+    width: 8%;
+
+  
+    
+}
+
+.btns button:hover,.btns button.active {
+    background: #ff214F;
+    color: #fff;
+}
+.sss{
+	min-height: 82px;
+	border-radius: 10px;
+	border-style: none;
+	background: white;
+
+
+
+}
+.ff{
+	width: 100%;
+	min-height: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main {
 	min-height: 4728.85px;
 	/*width:  1471.2px;*/
@@ -78,6 +153,7 @@
 .z{
 	background: transparent;
 	color: #ff214f;
+	border-top: 1px white solid;
 	border-style: none;
 	border-bottom: 1px solid black ;
 	border-top: none;
@@ -967,12 +1043,14 @@ input[type=submit] {
 	width: 100%;
 	min-height: 290px;
 	margin-left: 0px;
-	background-size: cover;
+	
 
 
 }
 
-.this1:hover {}
+
+
+
 
 .this2 {
 	float: left;
@@ -1026,6 +1104,7 @@ input[type=submit] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	align-content: center;
 	text-align: center;
 	font-size: 15px;
 	font-weight: bold;
@@ -1052,7 +1131,7 @@ input[type=submit] {
 }
 
 
-/*input.search, span {
+input.search, span {
   margin-top: 20px;
 }
 
@@ -1077,7 +1156,7 @@ ul.list {
   border-top: 1px solid #ccc;
 }
 
-*/
+
 
 
 
@@ -1353,7 +1432,7 @@ ul.list {
 	}
 }
 
-
+/*
 #preloader{
     width: 100%;
     height: 100vh;
@@ -1363,6 +1442,7 @@ ul.list {
     position: fixed;
     z-index: 100;
 }
+*/
 
 
 
@@ -1370,9 +1450,3 @@ ul.list {
 
 
 
-
-
-
-/*
-
-<div class="contain"><div id="owl-carousel" class="owl-carousel owl-theme"><div class="item">1 </div><div class="item">2 </div><div class="item">3 </div><div class="item">4 </div><div class="item">5 </div><div class="item">6 </div></div></div>
