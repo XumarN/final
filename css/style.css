@@ -58,6 +58,109 @@
 
 
 
+works.section-big {
+    border: none;
+    padding-bottom: 0;
+}
+.portfolio .mix {
+    display: none;
+}
+
+.filters {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.filters li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 70px;
+    cursor: pointer;
+    color: #777;
+    font-size: 16px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.filters li.active {
+    color: #333;
+    font-weight: 900;
+}
+
+.filters li span {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.work-items {
+    margin-top: 20px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.work-items .item {
+    position: relative;
+    overflow: hidden;
+    margin: 5px -10px;
+}
+
+.work-items .item img {
+    width: 100%;
+    transition: 0.8s ease-out;
+}
+
+.work-items .overlay{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+    -ms-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+    -moz-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+    -webkit-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.work-items .item:hover {    
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    z-index: 100;
+}
+.work-items .item:hover .overlay {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.work-items .item:hover img {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+
+.work-items .overlay i.fa {
+    font-size: 25px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
@@ -1108,6 +1211,7 @@ input[type=submit] {
 	text-align: center;
 	font-size: 15px;
 	font-weight: bold;
+	padding-bottom: 15px;
 
 }
 
@@ -1430,19 +1534,19 @@ ul.list {
 	.clientsicon {
 		margin-left: 260px;
 	}
-}
+} 
 
-/*
 #preloader{
     width: 100%;
     height: 100vh;
-    background: white url('http://www.heifer-ecuador.org/wp-content/uploads/AAPL/loaders/ajaxloader.gif') no-repeat center center;
+    background: white url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif') no-repeat center center;
     background-size: 10%;
     float: left;
     position: fixed;
     z-index: 100;
 }
-*/
+
+
 
 
 
