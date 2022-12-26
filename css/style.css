@@ -1,3 +1,96 @@
+
+
+.testimonial-content {
+    text-align: right;
+}
+
+.single-testimonial {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid #777777;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+
+.single-testimonial span {
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+.testimonial-area .subtitle, 
+.testimonial-area h2 {
+    margin-top: 0px;
+}
+
+.single-testimonial p {
+    font-size: 18px;
+}
+
+.single-testimonial img {
+    margin-top: 30px;
+    border-radius: 100px;
+    display: none;
+}
+
+.single-testimonial h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.single-testimonial h3 {
+    color: inherit;
+}
+
+.single-testimonial .desg {
+    font-size: 14px;
+    margin: 0;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 30px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 20px;
+    height: 5px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    background: #333;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    font-size: 25px;
+    background: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .allwrps {
     display: flex;
     flex-wrap: wrap;
@@ -290,8 +383,15 @@ li{
 .boxx {
 	width: 50px;
 	min-height: 50px;
-	margin-left: 575px;
 
+
+}
+.boxx{
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -1025,7 +1125,8 @@ input[type=submit] {
 	font-size: 30px;
 	transform: rotate(45deg);
 	border-radius: 10px;
-	margin-left: 220px;
+	margin-left: 300px;
+	margin-bottom: 30px;
 
 	background-color: #FF214F;
 
@@ -1322,14 +1423,7 @@ ul.list {
 		margin-left: 10px;
 	}
 
-	.clientsicon {
-		margin-left: 170px;
-	}
-
-	.boxx {
-		margin-left: 475px;
-	}
-
+	
 
 }
 
@@ -1404,9 +1498,7 @@ ul.list {
 
 	}
 
-	.clientsicon {
-		margin-left: 130px;
-	}
+	
 
 	.xx {
 		margin-right: 600px;
@@ -1491,13 +1583,7 @@ ul.list {
 		padding-right: 670px;
 	}
 
-	.clientsicon {
-		margin-left: 130px;
-	}
-
-	.boxx {
-		margin-left: 350px;
-	}
+	
 
 }
 
@@ -1548,9 +1634,6 @@ ul.list {
 }
 
 @media (max-width:732px) {
-	.clientsicon {
-		margin-left: 260px;
-	}
 	
 
 
