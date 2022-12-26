@@ -58,7 +58,7 @@
 
 
 
-works.section-big {
+.works.section-big {
     border: none;
     padding-bottom: 0;
 }
@@ -84,11 +84,13 @@ works.section-big {
     transition: 0.3s;
     -moz-transition: 0.3s;
     -webkit-transition: 0.3s;
+
 }
 
 .filters li.active {
-    color: #333;
+    color: #Ff214F;
     font-weight: 900;
+   
 }
 
 .filters li span {
@@ -102,12 +104,14 @@ works.section-big {
     margin-top: 20px;
     margin-right: -10px;
     margin-left: -10px;
+
 }
 
 .work-items .item {
     position: relative;
     overflow: hidden;
-    margin: 5px -10px;
+    margin: 5px -10px; 
+
 }
 
 .work-items .item img {
@@ -160,6 +164,17 @@ works.section-big {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.mystyle3{
+	width: 100%;
+	min-height: 50px;
+	color: #777777;
+	font-size: 20px;
+
+
+}
+li{
+	text-decoration: none;
 }
 
 
@@ -1141,7 +1156,7 @@ input[type=submit] {
 	margin-bottom: 100px;
 }
 
-.this1 {
+#this1 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
@@ -1155,13 +1170,13 @@ input[type=submit] {
 
 
 
-.this2 {
+#this2 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 }
 
-.this3 {
+#this3 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
@@ -1169,7 +1184,7 @@ input[type=submit] {
 
 }
 
-.this4 {
+#this4 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
@@ -1178,14 +1193,14 @@ input[type=submit] {
 
 }
 
-.this5 {
+#this5 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
 	margin-bottom: 100px;
 }
 
-.this6 {
+#this6 {
 	float: left;
 	width: 100%;
 	min-height: 290px;
@@ -1401,6 +1416,9 @@ ul.list {
 		float: left;
 	}
 
+	
+
+
 
 
 
@@ -1417,7 +1435,6 @@ ul.list {
 		margin-bottom: 20px;
 	}
 
-	.main5 {}
 
 
 
@@ -1534,7 +1551,12 @@ ul.list {
 	.clientsicon {
 		margin-left: 260px;
 	}
+	
+
+
 } 
+
+
 
 #preloader{
     width: 100%;
